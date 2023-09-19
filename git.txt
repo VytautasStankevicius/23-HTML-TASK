@@ -15,3 +15,5 @@ SHIFT+CTRL+V - pastina i terminala ka paspaudei copy ant kazko browseryje pvz
 git branch -M main   - nustatai pagrindine repozitorija
 git remote add origin https://github.com/VytautasStankevicius/23-HTML-TASK.git   -  linkini savo repozitorija kuria sukurei githube
 git push -u origin main  - isstumia lokalu koda i github
+
+git clone https://github.com/VytautasStankevicius/23-HTML-TASK.git      - - gryzus namo klonuojam repozitorij
