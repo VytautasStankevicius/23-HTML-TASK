@@ -1,0 +1,6 @@
+ls - parodo aplanko turini
+git init - skuria lokalia repozitorija
+git config user.name "Vytautas" - parasau savo varda
+git config user.email "v.stankeviciuss@gmail.com" - parasau savo email
+
+git add .          - prideda visus failus i git kad galima butu sekti versijas
