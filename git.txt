@@ -4,3 +4,14 @@ git config user.name "Vytautas" - parasau savo varda
 git config user.email "v.stankeviciuss@gmail.com" - parasau savo email
 
 git add .          - prideda visus failus i git kad galima butu sekti versijas
+git commit -m "Initial commit"         - komitas o kabutese rasom tai ka padarem
+git log                 - patikrina visus komitus
+
+
+SHIFT+CTRL+V - pastina i terminala ka paspaudei copy ant kazko browseryje pvz
+
+
+
+git branch -M main   - nustatai pagrindine repozitorija
+git remote add origin https://github.com/VytautasStankevicius/23-HTML-TASK.git   -  linkini savo repozitorija kuria sukurei githube
+git push -u origin main  - isstumia lokalu koda i github
