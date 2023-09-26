@@ -1,0 +1,66 @@
+article{ /* Elemento selektorius */
+    color:aqua;
+}
+*{ /* Universalus selektorius */
+    color:red;
+}
+.vip{ /* Klases selektorius */
+    background-color:tomato;
+}
+#user{ /*ID elemento selektorius, ID buna tik vienas unikalus */
+    background-color: silver;
+}
+.links a[href="http://www.kitm.lt"]{ /* Atributo selektorius */
+    color: green;
+}
+.links a[href="http://www.delfi.lt"]{ 
+    color: blue;
+}
+.links a[href="http://www.15min.lt"]{ 
+    color: blueviolet;
+}
+.links a[href="http://www.lrytas.lt"]{ 
+    color: yellow;
+}
+.links a[href="http://www.alfa.lt"]{ 
+    color: orange;
+}
+
+.documents a[href$=".docx"]{ /*Atributo selektorius, kuris ziuri i failo pletini */
+    color: blue;
+}
+
+.links a:hover{ /*Pseudo klases selektorius*/
+    color: black;
+}
+
+.documents ul li:first-child{
+    background-color: aquamarine;
+}
+.documents ul li:last-child{
+    background-color: tomato;
+}
+
+.links ul li:nth-child(3){
+    background-color: black;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    color:red;
+}
+
+h2{
+    color:blue
+}
+
+.products ul>li{
+    color:black;
+}
+
+.products ul>li>ul>li{
+    color:green;
+}

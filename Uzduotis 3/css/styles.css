@@ -1,0 +1,33 @@
+main{
+    background-color: aqua;
+}
+
+article{
+    font-size: 1.2em
+}
+
+.article1{
+    background-color: brown;
+    font-family: 'Croissant One', cursive;
+}
+
+.article2{
+    background-color: red;
+    font-family: 'Skranji', cursive;
+}
+
+.article3{
+    background-color: yellow;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.article4{
+    background-color: green;
+    font-family: 'Kenia', cursive;
+}
+
+.article5{
+    background-color: orange;
+    font-family: 'Poppins', sans-serif;
+}
+

@@ -1,0 +1,44 @@
+/*Base*/
+h1, body {
+    margin:0;
+}
+
+
+
+
+.container{
+    background-color: #ddff88;
+    height: 800px;
+    width: 80%;
+    margin: 15px auto;
+}
+/*parasius margin"20px (tik viena inputa tai ji pritaikys viskam - top right bottom left*/
+
+header{
+    background-color: #00cc66;
+    padding: 15px;
+    border:1px dashed #000; /*dashed, dotted*/
+
+}
+
+nav{
+    background-color: #df89;
+    padding: 5px;
+    
+}
+
+nav li{
+    background-color: #00cc66;
+    margin:5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav li:hover {
+    background-color: blue;
+}
+
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}

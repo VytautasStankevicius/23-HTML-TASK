@@ -1,0 +1,113 @@
+h1, h2{
+    color:blue;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Fuggles', cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+article p{
+    text-align: right;
+    line-height: 2;
+}
+
+section .fa-dragon{
+    color:black;
+    font-size: 3em;
+}
+
+section .fa-shield-halved{
+    color: green;
+    font-size: 2em;
+}
+
+section .fa-ghost{
+    color:yellow;
+    font-size: 2em;
+}
+
+section .fa-heart{
+    color:purple;
+    font-size: 2em;
+}
+
+section .fa-wand-sparkles{
+    color:orange;
+    font-size: 2em;
+}
+
+.products ul{
+    list-style: none;
+}
+
+h1{
+    background-color: #00ffcc;
+}
+
+h2{
+    background-color: rgb(200,120,15);
+}
+
+header{
+    background: #84a9ab url('../img/webdev1.webp');
+    background-size: cover;
+    height: 300px;
+}
+
+/*Promo blokas*/
+
+.product-promo{
+    height: 300px;
+    background: #eee url('../img/webdev1.webp');
+    background-size: cover;
+}
+
+.product-promo .product-block-content{
+    background-color: #eee;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.5
+}
+
+body {
+    background: radial-gradient(#00ffcc, #84a9ab)
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+th,td{
+    border:1px solid #000;
+}
+
+tr:nth-child(even){
+    background-color: blueviolet;
+}
+
+tr:hover{
+    background-color: yellow;
+}
