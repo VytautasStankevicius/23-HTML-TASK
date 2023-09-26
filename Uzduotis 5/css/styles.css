@@ -1,0 +1,22 @@
+h1, body {
+    margin:0;
+}
+
+.container1{
+    width:50%;
+    margin:auto;
+}
+
+.container2{
+    width:50%;
+    margin:auto;
+}
+
+main .fa-angles-right{
+    color:black;
+}
+
+footer{
+    width:50%;
+    margin:auto;
+}
