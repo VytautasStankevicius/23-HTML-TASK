@@ -1,0 +1,61 @@
+.container{
+    background-color: #eee;
+    width: 80%;
+    margin:0 auto;
+    height: 600px;
+    position: relative;
+}
+
+.container div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    bottom:0;
+}
+
+.container div h2{
+    line-height: 200px;
+    text-align: center;;
+}
+
+.container div:nth-child(1){
+    background-color: rgb(231,158,22);
+}
+
+.container div:nth-child(2){
+    background-color: green;
+    top:0;
+}
+
+.container div:nth-child(3){
+    background-color: yellow;
+    bottom:0;
+    right:0;
+}
+
+.container div:nth-child(4){
+    background-color: purple;
+    top:0;
+    right:0;
+}
+
+.container div:nth-child(5){
+    background-color: blue;
+}
+
+.container div:nth-child(6){
+    background-color: red;
+    top:35%;
+    bottom: 50%;
+    left:40%;
+    right:50%;
+}
+
+.container div:nth-child(7){
+    background-color: aqua;
+}
+
+.container div:nth-child(8){
+    background-color: tomato;
+}
