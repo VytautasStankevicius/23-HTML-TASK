@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display:flex;
+    
+}
+
+.logo {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.navbar {
+    width:1000px;
+}
+.navbar1 {
+    width: 362px;
+    height: 26px;
+    text-align:center;
+}
+
+.navbar1 a{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+.navbar2 {
+    display:flex;
+    align-items: right;
+}
